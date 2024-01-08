@@ -1,0 +1,132 @@
+.popup-setting-container {
+    height: 350px;
+}
+
+.popup-setting-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.postToUpdate-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.popup-close-action {
+    display: flex;
+    justify-content: end;
+}
+
+.popup-close-action>button {
+    background-color: #9ca3af;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.postToUpdate-img {
+    display: flex;
+    justify-content: center;
+}
+
+.postToUpdate-img>img {
+    width: 500px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.postToUpdate-container>textarea {
+    margin: 5px 0;
+    background-color: #e2e8f0;
+    padding: 5px;
+    resize: none;
+}
+
+.postToUpdate-action-button {
+    display: flex;
+    justify-content: center;
+}
+
+.postToUpdate-action-button>input {
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.popup-post-update-button {
+    background-color: #0f766e;
+}
+
+.popup-post-delete-button {
+    background-color: #ef4444;
+}
+
+.post-choose-img-action {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.post-choose-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.post-choose-img>input,
+.post-base-choose-img {
+    position: absolute;
+    visibility: hidden;
+}
+
+.post-choose-img-action>label {
+    background-color: #fb923c;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.post-choose-img>label>i {
+    margin: 0 5px;
+}
+
+.imgToUpdate>span {
+    color: #94a3b8;
+}
+
+.imgToUpdate>img {
+    width: 500px;
+    height: auto;
+    margin: 5px 0;
+}
+
+.imgToUpdate>.remove-img {
+    display: flex;
+    justify-content: center;
+}
+
+.imgToUpdate>.remove-img>button {
+    background-color: #fb7185;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.popup-setting-content-loading {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    height: 100%;
+    background-color: rgb(216 216 216 / 50%);
+}

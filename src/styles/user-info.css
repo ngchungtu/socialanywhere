@@ -1,0 +1,79 @@
+.user-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-info .user-info-name {
+    font-weight: 500;
+    margin: 0 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.status-connection {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+}
+
+.status-connection.online {
+    background-color: #16a34a;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.status-connection.offline {
+    background-color: #be123c;
+}
+
+.user-info-img{
+    position: relative;
+}
+
+.user-info-img>img {
+    width: 55px;
+    height: auto;
+    margin: 0 5px;
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #185a9d, #43cea2) border-box;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    padding: 3px;
+}
+
+.user-status-connection{
+    position: absolute;
+    z-index: 1;
+    top: 45px;
+    left: 0;
+    width: 100%;
+}
+
+.user-info-action {
+    display: flex;
+    justify-content: center;
+}
+
+.button-logout {
+    background-color: #9ca3af;
+    color: #fff;
+    margin: 10px 0;
+    padding: 5px;
+    width: 35%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.user-info-loading{
+    display: flex;
+    justify-content: center;
+}

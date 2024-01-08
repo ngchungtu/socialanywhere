@@ -1,0 +1,47 @@
+.login-bg .login-img-bg {
+    opacity: 1;
+}
+
+.login-bg .login-img-bg_loading{
+    opacity: 0.5;
+}
+
+.form {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.login-form>input {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    width: 35%;
+}
+
+.login-form>button {
+    background-color: #475569;
+    color: #9ca3af;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.login-form>button:hover {
+    background-color: #0369a1;
+    color: #f4f4f5;
+}

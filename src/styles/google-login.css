@@ -1,0 +1,19 @@
+.login-button_google{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+}
+.login-button_google>img{
+    width: 40px;
+    height: auto;
+    position: absolute;
+}
+.login-button_google>button{
+    background-color: #1e293b;
+    padding: 5px 5px 5px 20px;
+    margin: 0 0 0 20px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}

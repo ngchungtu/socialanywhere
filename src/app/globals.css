@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +24,23 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+/* .app-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
 }
+
+.app-navbar,
+.app-main {
+  padding: 10px;
+  margin: 5px;
+}
+
+.app-navbar {
+  background-color: #94a3b8;
+}
+
+.app-main {
+  background-color: #93c5fd;
+} */

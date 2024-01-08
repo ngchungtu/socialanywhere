@@ -1,0 +1,44 @@
+.post-form-action {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.post-form-action>button {
+    background-color: #3b82f6;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.label-upload-img {
+    background-color: #10b981;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+}
+
+.post-form-action>i {
+    margin: 5px 10px;
+}
+
+.post-choose-img>input,
+.post-base-choose-img {
+    position: absolute;
+    visibility: hidden;
+}
+.post-base-choose-img_item>img{
+    border-radius: 10px;
+    padding: 5px;
+}
+.post-base-choose-img_item>button{
+    background-color: #fb7185;
+    margin: 5px;
+    padding: 0 5px;
+    border-radius: 5px;
+    color: #fff;
+}
